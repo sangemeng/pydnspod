@@ -1,6 +1,7 @@
 
 from setuptools import setup, find_packages
 
+# windows平台默认gbk无法解码
 with open(file='README.md', mode='r', encoding='utf-8') as f:
     long_description = f.read()
 
