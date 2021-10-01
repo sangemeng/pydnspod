@@ -46,13 +46,13 @@ dp.domain.record_line()     # 获取域名支持的线路类型
 dp.domain.record_type()     # 获取域名支持的记录类型
 
 操作记录: dp.record.*
-pd.record.add()             # 添加record
-pd.record.info()            # 查看record信息
-pd.record.list()            # 查询符合条件的record
-pd.record.remove()          # 删除record
-pd.record.remark()          # 给record设置备注
-pd.record.modify()          # 修改record
-pd.record.modify_status()   # 修改record的状态。启用或禁用
-pd.record.record_id()       # 获取符合条件的子域名的record id
-pd.record.status()          # 获取启用或禁用的records。
+dp.record.add()             # 添加record
+dp.record.info()            # 查看record信息
+dp.record.list()            # 查询符合条件的record
+dp.record.remove()          # 删除record
+dp.record.remark()          # 给record设置备注
+dp.record.modify()          # 修改record
+dp.record.modify_status()   # 修改record的状态。启用或禁用
+dp.record.record_id()       # 获取符合条件的子域名的record id
+dp.record.status()          # 获取启用或禁用的records。
 ```
